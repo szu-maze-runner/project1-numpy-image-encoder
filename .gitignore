@@ -1,0 +1,15 @@
+# 课程提供的大文件：超过 GitHub 单文件 100 MB 上限，按 README 第 3 节从附件获取
+weights/*.npz
+assets/reference_outputs.npz
+
+# Python 缓存与本地环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.tmp_deps/
+
+# 临时输出
+/output_tokens.npz
+.DS_Store
+Thumbs.db
