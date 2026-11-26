@@ -1,5 +1,7 @@
 # Project 1：用 NumPy 复现 OpenCLIP ViT-B-32 图像编码器
 
+**GitHub 仓库（Public，助教与老师可访问）**：https://github.com/szu-maze-runner/project1-numpy-image-encoder
+
 > 课程小项目：给定 10 张图像与训练好的参数 theta，**只用 NumPy** 手写 Vision Transformer 的
 > 前向计算，把每张图像编码成一个 512 维、单位长度的数值特征，并与独立 Torch FP32 参考结果对齐。
 > 本项目不需要训练、不需要 GPU、不需要 PyTorch / OpenCLIP 包，也不需要联网。
