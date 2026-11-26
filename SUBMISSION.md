@@ -1,4 +1,4 @@
-# 提交状态与最后两步（Project 1 · NumPy 图像编码器）
+# 提交状态与最后一步（Project 1 · NumPy 图像编码器）
 
 ## 一、已完成（无需你操作）
 
@@ -12,6 +12,9 @@
   「Python程序设计 / 人工智能学院 / 指导教师 舒婷」，示例插图正是 ViT 架构图，可确认就是本次项目模板。
   用本机 MiKTeX XeLaTeX 编译，保留封面页、五个正文章节与教师批阅/成绩评定页，
   **共 5 页（封面 1 + 正文 3 + 批阅 1）**，无溢出、无乱码，满足「正文 ≤ 5 页」。
+- **封面信息已全部填好**：专业「人工智能IEEE」、报告人「黄杨辰弘」、学号「2025681086」；
+  课程名称、项目名称、学院、指导教师、实验/提交时间也已补齐。PDF 与 Word 两个版本都已填写，无需再改。
+- **交付文件已按提交规范重命名**：`2025681086_黄杨辰弘_实验报告.pdf` / `.docx` / `.md`（学号_姓名_实验报告）。
 - **仓库地址已填好**：README、两份报告、提交说明中均已写入，无需再复制粘贴。
 - 326 MB 权重与参考输出按 GitHub 单文件上限排除，README 第 3 节写明获取方式与 SHA-256 校验。
 
@@ -19,28 +22,22 @@
 
 | | 文件 | 说明 |
 | --- | --- | --- |
-| **推荐** | `report/实验报告-官方模板.pdf` | 学院官方 LaTeX 模板，5 页，直接交 PDF；封面只剩 3 处空栏 |
-| 备选 | `report/实验报告.docx` | Word 版，方便在 Word/WPS 里直接编辑填写；5 页 |
+| **推荐** | `report/2025681086_黄杨辰弘_实验报告.pdf` | 学院官方 LaTeX 模板，5 页，封面已填全，直接交 |
+| 备选 | `report/2025681086_黄杨辰弘_实验报告.docx` | Word 版，5 页，封面已填全，方便再编辑 |
 
 两份内容一致，任选其一即可，**不要都交**。若畅课只收 Word，交 docx；若收 PDF 或不限，交官方模板 PDF 更贴合老师预期。
 
-## 三、你只剩两步
+## 三、你只剩一步
 
-1. **填封面信息**：
-   - 交 PDF 版：封面「专业、报告人、学号」三处为空，用 WPS/Word 打开 PDF 填入并保存；
-     或把三项信息发给我，我重新编译出填好的终版 PDF（1 分钟）。
-   - 交 docx 版：把封面「课程名称、学院、专业、指导教师、报告人、学号」六处 `（填写）` 换成真实信息。
-   - 项目名称、实验/提交时间、指导教师（舒婷）、GitHub 地址都已填好，不用改。
-2. **交到畅课平台**：登录畅课 → 本小项目提交入口 → 上传报告 →
-   提交框粘贴 `https://github.com/szu-maze-runner/project1-numpy-image-encoder` →
-   刷新确认状态为「已提交」。
+登录畅课 → 本小项目提交入口 → 上传报告 → 提交框粘贴
+`https://github.com/szu-maze-runner/project1-numpy-image-encoder` → 刷新确认状态为「已提交」。
 
-若平台强制要求另用官方 docx 模板，可打开 `report/实验报告.md`，按「第 1~4 页」各节依次粘贴，
-粘贴后**预览确认总页数仍 ≤ 5 页**。
+若平台强制要求另用官方 docx 模板，可打开 `report/2025681086_黄杨辰弘_实验报告.md`，
+按「第 1~4 页」各节依次粘贴，粘贴后**预览确认总页数仍 ≤ 5 页**。
 
 ## 四、可编辑源文件（可选）
 
-`report/official-template/main.tex` 是填好内容的 LaTeX 源，`figs/` 是两张配图。
+`report/official-template/main.tex` 是填好内容的 LaTeX 源（封面信息也已写入），`figs/` 是两张配图。
 本机重新编译（在 `report/official-template` 目录下执行两遍，tikz 批阅页需要第二遍定位）：
 
 ```bash
@@ -59,7 +56,7 @@ xelatex -interaction=nonstopmode main.tex
 - [x] GitHub 仓库为 Public，能看到多条真实 commit，仓库体积只有几 MB
 - [x] 报告 ≤ 5 页，含任务与方法、实现要点、可复现性、结果证据、分析反思、本人贡献，并已填入仓库地址
 - [x] 已改用学院官方实验报告模板（含教师批阅页）
-- [ ] 封面个人信息已填写
+- [x] 封面个人信息与学号已填写，文件名已按「学号_姓名_实验报告」规范重命名
 - [ ] 畅课平台已上传报告并粘贴仓库地址
 - [ ] 没有在最后一刻提交；不接受无理由迟交
 
@@ -76,7 +73,8 @@ xelatex -interaction=nonstopmode main.tex
 | 现象 | 处理 |
 | --- | --- |
 | 助教说缺权重文件 | 按 README 第 3 节从课程附件复制 `weights/image_encoder.npz` 与 `assets/reference_outputs.npz` 到对应目录（GitHub 单文件限 100 MB） |
-| 平台只收 Word | 交 `report/实验报告.docx`；或 Word/WPS 打开官方模板 PDF 另存为 docx |
+| 平台只收 Word | 交 `report/2025681086_黄杨辰弘_实验报告.docx` |
+| 想改封面信息 | 改 `report/official-template/main.tex` 封面后重新编译两遍；Word 版可直接编辑 |
 | 想再跑一次验证 | `python -m pip install -r requirements.txt` 后 `python check.py --stage all`（约 2 分钟） |
 | 想改成私有并邀请助教 | 仓库 Settings → 改 visibility 为 Private → Collaborators 添加助教与老师账号 |
 | 本地还有改动想补交 | `git add -A && git commit -m "..." && git push`（不要 force push） |

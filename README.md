@@ -49,7 +49,7 @@
 | `lecture-demos/`、`practice/` | 课堂示例与 12 道 NumPy 练习题（不含课件答案） | 否，课程提供 |
 | `docs/COURSE-README.md` | 课程发放的原始英文 README 备份 | 是（整理归档） |
 | `results/` | 本次实测的误差记录、输出特征与图 | 是 |
-| `report/` | 实验报告（Markdown + Word） | 是 |
+| `report/` | 实验报告（官方模板 PDF + Word + Markdown，含可编译 LaTeX 源） | 是 |
 | `SUBMISSION.md` | GitHub 与畅课平台的提交操作步骤 | 是 |
 | `.gitignore` | 排除超大权重、参考输出与缓存 | 是 |
 
