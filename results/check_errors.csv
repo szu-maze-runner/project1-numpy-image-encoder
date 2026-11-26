@@ -1,0 +1,8 @@
+﻿stage,shape,max_abs,mean_abs,atol,rtol,result
+preprocess,"(10, 3, 224, 224)",0.000e+00,0.000e+00,2e-06,2e-04,PASS
+patches,"(2, 49, 3072)",0.000e+00,0.000e+00,2e-04,2e-04,PASS
+tokens,"(2, 50, 768)",4.005e-05,1.289e-06,2e-04,2e-04,PASS
+block0,"(2, 50, 768)",7.063e-06,3.250e-07,2e-04,2e-04,PASS
+last_tokens,"(2, 50, 768)",4.768e-05,2.696e-06,2e-04,2e-04,PASS
+output,"(10, 512)",5.439e-07,8.306e-08,2e-05,2e-04,PASS
+batch,"(3, 512)",4.619e-07,7.632e-08,2e-05,2e-04,PASS

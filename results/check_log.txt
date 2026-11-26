@@ -1,0 +1,17 @@
+Command : python check.py --stage all
+Env     : Windows 11 / Python 3.14.3 / NumPy 2.4.3 / Pillow 12.3.0
+Date    : 2026-11-26
+Runtime : 2 min 13 s (bottleneck: per-element math.erf loop in helpers.GELU)
+
+assets       PASS: 152 matching visual tensors and ten image/reference pairs
+preprocess   PASS shape=(10, 3, 224, 224) max_abs=0.000e+00 mean_abs=0.000e+00 (atol=2e-06, rtol=0.0002)
+patches      PASS shape=(2, 49, 3072) max_abs=0.000e+00 mean_abs=0.000e+00 (atol=0.0002, rtol=0.0002)
+tokens       PASS shape=(2, 50, 768) max_abs=4.005e-05 mean_abs=1.289e-06 (atol=0.0002, rtol=0.0002)
+block0       PASS shape=(2, 50, 768) max_abs=7.063e-06 mean_abs=3.250e-07 (atol=0.0002, rtol=0.0002)
+last_tokens  PASS shape=(2, 50, 768) max_abs=4.768e-05 mean_abs=2.696e-06 (atol=0.0002, rtol=0.0002)
+output       PASS shape=(10, 512) max_abs=5.439e-07 mean_abs=8.306e-08 (atol=2e-05, rtol=0.0002)
+batch        PASS shape=(3, 512) max_abs=4.619e-07 mean_abs=7.632e-08 (atol=2e-05, rtol=0.0002)
+Requested numerical checks passed. The reference file is never an encoder input.
+
+Command : python run.py --output results/output_tokens.npz
+Saved (10, 512) to results\output_tokens.npz
